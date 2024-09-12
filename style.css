@@ -1,0 +1,115 @@
+body /* typ selector */ {
+    font-family: georgia, Arial , Helvetica, sans-serif ;
+    margin: 0px;
+    font-size: 1.1vw;
+}
+
+#logo /* id selector */ {
+    margin: 0px;
+    padding: 8px;
+    font-family: 'Protest Guerrilla', sans-serif;
+    width: 11.5%;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px 2px rgb(40, 98, 100);
+    border-radius: 40%;
+    text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.400), -2px -2px 0px rgba(0, 0, 255, 0.400);
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header > nav > ul /* child selector*/{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding-right: 100px;
+}
+
+
+.navbutton /* class selector */ { 
+    text-decoration: none;
+    color: #0E2B88;
+    margin: 8px;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+body > header {
+    background-color: rgb(95, 158, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* MAKE STICKY HEADER */
+    position: sticky;
+    top: 0;
+}
+
+#title_top {
+    height: 96vh;
+    color: chartreuse;
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    text-align: center;
+    align-content: center;
+}
+
+.title_top {
+    text-decoration: none;
+    color: red;
+    /* makes border around link + bigger clickable area */
+    margin: 8px;
+    padding: 15px 20px;
+    border: 1px solid chartreuse;
+    border-radius: 5%;
+}
+
+#main_content article { 
+    width: 90%;
+    margin: auto;
+}
+
+#main_content { 
+    display: flex; 
+    justify-content: space-around;
+}
+
+#main_content > div { 
+    width: 80%;
+}
+
+#title { 
+    text-align: center;
+}
+
+form { 
+    text-align: center;
+}
+
+body > footer {
+    background-color: #5f9ea0;
+    display: flex;
+}
+
+body > footer ul {
+    list-style: none;
+}
+
+body > footer ul li a {
+    text-decoration: none;
+    color: #0E2B88;
+}
+
+
+
+img { 
+    border-radius: 50%;
+}
