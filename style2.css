@@ -1,0 +1,109 @@
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-evenly;
+}
+
+#h2 {
+    margin-top: 0px;
+}
+
+#highlight {
+    text-align: center;
+    
+}
+
+#container {
+    width: 330px;
+    height: 175px;
+    background-color: #79677433;
+    border-radius: 3%;
+}
+
+.highlight {
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+}
+
+#zkwi {
+    max-width: 200px;
+    max-height: 200px; 
+}
+
+#lemo {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#rock {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#snotere {
+    max-width: 200px;
+    max-height: 800px;
+}
+
+#treesun {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#billi {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#daymoon {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#kwi {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#fall {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#catbuhs {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#rainsun{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#temple {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#rainbow {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#minerret {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#oragne {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#catscre {
+    max-width: 200px;
+    max-height: 200px;
+}
