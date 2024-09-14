@@ -4,7 +4,7 @@ body /* typ selector */ {
     font-size: 1.1vw;
     background-color: #CBB47C;
 }
-
+.io{ background-color: #ca6e43;}
 body > div > header {
     background-color: rgba(248, 248, 255, 0.4);
     width: 25%;
@@ -56,10 +56,10 @@ body > div >  header > nav > ul /* child selector*/{
 }
 
 .navbutton:hover {
-    color: red;
+    color: #D88686;
     border: 1px solid ;
     border-radius: 5%;
-    border-color: whitesmoke;
+    border-color: black;
 }
 
 
@@ -71,11 +71,18 @@ body > div >  header > nav > ul /* child selector*/{
     background-repeat: no-repeat;
     background-position: center;
 }
-
 #title_top_about {
     height: 60vh;
     width: 100%;
     background-image: url(wei-yu-xuIZi-rmpiY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#title_top_contact {
+    height: 80vh;
+    width: 100%;
+    background-image: url(rodion-kutsaiev-a7IVuJwYjp8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,6 +116,7 @@ body > div >  header > nav > ul /* child selector*/{
 #main_content { 
     background-color: #8e8923;
     color: rgb(212, 212, 212);
+    height: 34vh;
 }
 
 #main_content > div {
@@ -130,10 +138,15 @@ body > div >  header > nav > ul /* child selector*/{
 body > footer {
     background-color: #495755;
     display: flex;
+    justify-content: center;
+    column-gap: 30px;
 }
 
 body > footer ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 body > footer ul li a {

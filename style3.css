@@ -1,0 +1,12 @@
+#io {
+    background-color: #9cadb4;
+}
+
+.title_top_contact {
+    color: black;
+}
+
+.con {
+    display: flex;
+    justify-content: space-around;
+}

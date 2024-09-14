@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrightBlog</title>
 </head>
-<body>
+<body id="io">
     <div class="pic">
-        <header>
+        <header >
             <h1 id="logo">عشرة</h1>
             <nav>
                 <ul>
@@ -23,39 +23,55 @@
             </nav>
          </header>
 
-         <div id="title_top">
-            <div id="top">
-                <h1>Lore ipsum dolor</h1>
-                <h3 >This is my first website</h3>
-                <a href="" class="title_top">Sign up</a>
+         <div id="title_top_contact">
+            <div id="top" >
+                <h1 class="title_top_contact">Lore ipsum dolor</h1>
+                <h3 class="title_top_contact">This is my first website</h3>
+                
             </div>
         </div>
     </div>
      
-     <main >
+     <main class="con">
 
-        <section   id="main_content">
-            <h2 id="tite">Why Choose 'Ashrah?</h2>
-            <div>
-                <div id="container">
-                    <h3 id="highlight">Saves Time</h3>
-                    <p class="highlight">Instead of spending hours picking, use us.</p>
-                </div>
-                <div id="container">
-                    <h3 id="highlight">Realistic</h3>
-                    <p class="highlight">It takes time to see the benefits but you will get the best results you could never dream of.</p>
-                </div>
-                <div id="container">
-                    <h3 id="highlight">Simple</h3>
-                    <p class="highlight">One click away from having the best time of your life.</p>
-                </div>
-            </div>
-        </section>
+        
+        <form action="" method=""> 
+            <h2>Get in Touch</h2>
+
+            <h3>Subscribe to Daily Newletter</h3>
+            <label for="first_name">First Name :</label>
+            <input type="text" name="first_name" id="first_name" required>
+            <label for="last_name">Last Name :</label>
+            <input type="text" name="last_name" id="last_name" >
+            <br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+
+            <label for="bio">Message :</label>
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea required>
+            <br>
+
+            <input type="checkbox" name="sub" id="sub">
+            <label for="sub">Subscribe for Newsletter</label>
+            <br>
+
+            <input type="submit" value="Send Message">
+            
+
+            
+        </form>
 
         <section>
+            <h3>Come visit us</h3>
+            <p>Street Name :</p>
+            <p>Postcode :</p>
+            <p>City/County :</p>
 
+            <p>Email : Ashrah@gmail.com</p>
+            <p>Phone number: 385-485-1222 </p>
         </section>
-
      </main>
     
      <footer>
